@@ -1,0 +1,158 @@
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+  }
+
+
+
+body {
+    background-color: #fff;
+	color: #000;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+.each-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 18px;
+    border: none;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 375px;
+    height: 199px;
+    overflow: hidden;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.card-image img {
+    width: 100%;
+    height: 199px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.own-box {
+    background: #E2E0E0;
+    padding: 30px;
+}
+.card-title {
+    margin-bottom: .5rem;
+    font-size: 24.97px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #252525;
+}
+p.card-text {
+    color: #929292;
+    font-size: 17.84px;
+    line-height: 23.22px;
+    font-weight: 400;
+    margin-bottom: 40px !important;
+}
+.sec-title {
+    color: #666666;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.57px;
+    letter-spacing: 4px;
+}
+.card-one {
+    padding-right: 30px;
+}
+.card-two{
+    padding-left: 30px;
+}
+
+
+
+ @media (min-width: 374.99px) and (max-width: 991.98px)  { 
+    
+
+    .each-card {
+        margin: 0 0 20px 0;
+    }
+    .card-one {
+        padding: 0 15px;
+    }
+    .card-two{
+        padding: 0 15px;
+    }
+    .card-image {
+        width: 100%;
+    }
+
+
+ }
+
+
+ @media (min-width: 992px)  and (max-width: 1920px) { 
+    .each-card {
+        margin: 0 0 20px 0;
+    }
+    .card-one {
+        padding: 0 15px;
+    }
+    .card-two{
+        padding: 0 15px;
+    }
+    .card-image {
+        width: 100%;
+    }
+    .card-image {
+        width: 100%;
+    }
+ }
+
+
+ @media (min-width: 1920px)  and (max-width: 2560px) { 
+    .each-card {
+        margin: 0 0 20px 0;
+    }
+    .card-one {
+        padding: 0 15px;
+    }
+    .card-two{
+        padding: 0 15px;
+    }
+    .card-image {
+        width: 100%;
+    }
+    .card-image {
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
